@@ -1,0 +1,6 @@
+framework module EFIntroVideoViewController {
+  umbrella header "EFIntroVideoViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_EFIntroVideoViewController_Tests {
+  umbrella header "Pods-EFIntroVideoViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

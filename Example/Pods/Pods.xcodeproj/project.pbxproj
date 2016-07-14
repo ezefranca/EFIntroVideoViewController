@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449A7638202562A18C1D3032E466E3FB /* Pods-EFIntroVideoViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED25B2D2014FA565828F434F4C7C4F3F /* Pods-EFIntroVideoViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DC1C6858A73AEDD8A73D0D5F0BF73D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5CCB3E0F671471A04ABF10672DDAB61E /* EFIntroVideoViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8BAF123B9C5AD27D0F7A5EC9F57DC5 /* EFIntroVideoViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E796BA1ACC9FC3C4C25197D743D95B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6F0DF5A600A262FE9B42E05E0AE948C7 /* Pods-EFIntroVideoViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 103E359C0576D432D994252BCFCF62D3 /* Pods-EFIntroVideoViewController_Example-dummy.m */; };
+		7EE258F841B733EEEC051A35F28718F2 /* Pods-EFIntroVideoViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9ED4FD339FD56DE8C36912A03D6A2FB /* Pods-EFIntroVideoViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F90F8E3AFB640361EE1D489E0AE8B60 /* EFIntroVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310ACF59C301FC623A32AB4DCCEBBFBC /* EFIntroVideoViewController.swift */; };
+		C9AC56C028C823DEF9678641777A8514 /* EFIntroVideoViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8335583EAB515EECC4D75435C52A7BC /* EFIntroVideoViewController-dummy.m */; };
+		FA65975ED360404989A51F3045D504CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FDF0358A634934827A1535A4A571C839 /* Pods-EFIntroVideoViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDDCCAB1150E91D871245DAA8C5D4E8 /* Pods-EFIntroVideoViewController_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A4651D1AE8A2B3CE159B5A3C75BEBFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C89A6BE9C96CAA6CAFB254136650AC1;
+			remoteInfo = EFIntroVideoViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044563FDE9810C26F20D0677953BA924 /* Pods-EFIntroVideoViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIntroVideoViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		0AABA751AD8E88D34A45465CF2A62FE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDDCCAB1150E91D871245DAA8C5D4E8 /* Pods-EFIntroVideoViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIntroVideoViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		103E359C0576D432D994252BCFCF62D3 /* Pods-EFIntroVideoViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFIntroVideoViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		1608A3082AD842D83A6049014A97DFFE /* Pods-EFIntroVideoViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIntroVideoViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		17035073C2A05695820E0A21E18381FA /* Pods-EFIntroVideoViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIntroVideoViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		310ACF59C301FC623A32AB4DCCEBBFBC /* EFIntroVideoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EFIntroVideoViewController.swift; sourceTree = "<group>"; };
+		38556AE24F1FD191F92FB36193591928 /* EFIntroVideoViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIntroVideoViewController-prefix.pch"; sourceTree = "<group>"; };
+		3F50C5DDADD89EFAFC177BAE508552C0 /* Pods-EFIntroVideoViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIntroVideoViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		45813F2437CA3262A5F7EF76D4216136 /* EFIntroVideoViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFIntroVideoViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5090159729FB9DF18A1E41FCDACAD186 /* Pods_EFIntroVideoViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFIntroVideoViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		718D2600C91E816C7D53C9A7E50AEDB4 /* Pods-EFIntroVideoViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIntroVideoViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7390639DDF93EFA6B81AF58E666699C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FC510960F62E401C82094CC35848E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DE366B600C14F7137BEA20759B7845 /* Pods-EFIntroVideoViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIntroVideoViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		87D3550F7B103E3A455A1899512DBB26 /* EFIntroVideoViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EFIntroVideoViewController.modulemap; sourceTree = "<group>"; };
+		87E2BA7B7781038E7A00B5BF1445E774 /* Pods_EFIntroVideoViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFIntroVideoViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D48B50DC8E8940E27FBA3D6837CE295 /* EFIntroVideoViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFIntroVideoViewController.xcconfig; sourceTree = "<group>"; };
+		A8335583EAB515EECC4D75435C52A7BC /* EFIntroVideoViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFIntroVideoViewController-dummy.m"; sourceTree = "<group>"; };
+		CA91519A8487EB0A395CB53BD4B3C8FA /* Pods-EFIntroVideoViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EFIntroVideoViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		CAACDEEE547F6A824930AF500E96AD61 /* Pods-EFIntroVideoViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIntroVideoViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB09922E319CD26317A5FD4E51ADDD4D /* Pods-EFIntroVideoViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFIntroVideoViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D10DCFDDF7C9BE872C2D7F6E6572F2EC /* Pods-EFIntroVideoViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFIntroVideoViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCC35A355C33A8C1CEDBE635DD499CDD /* Pods-EFIntroVideoViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIntroVideoViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		E442B1B534C38A278E6D60900E47FB74 /* Pods-EFIntroVideoViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFIntroVideoViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E95FB01A1FC966AF6A7EE99BE17A43CF /* Pods-EFIntroVideoViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EFIntroVideoViewController_Example.modulemap"; sourceTree = "<group>"; };
+		E9ED4FD339FD56DE8C36912A03D6A2FB /* Pods-EFIntroVideoViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIntroVideoViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		ED25B2D2014FA565828F434F4C7C4F3F /* Pods-EFIntroVideoViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFIntroVideoViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FC8BAF123B9C5AD27D0F7A5EC9F57DC5 /* EFIntroVideoViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFIntroVideoViewController-umbrella.h"; sourceTree = "<group>"; };
+		FE4A1EC606E20497E299F6C2034EAC01 /* Pods-EFIntroVideoViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFIntroVideoViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48AD9760678576BA38080FED0686F177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E796BA1ACC9FC3C4C25197D743D95B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87B9AE43E3D0651FADA9D0D1D52EA607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC1C6858A73AEDD8A73D0D5F0BF73D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84E56AE04013A7C1AB8D79F68E09AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA65975ED360404989A51F3045D504CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1358BC47EEC96AABB7A11AD41D8F0BED /* Pods-EFIntroVideoViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0AABA751AD8E88D34A45465CF2A62FE9 /* Info.plist */,
+				E95FB01A1FC966AF6A7EE99BE17A43CF /* Pods-EFIntroVideoViewController_Example.modulemap */,
+				CAACDEEE547F6A824930AF500E96AD61 /* Pods-EFIntroVideoViewController_Example-acknowledgements.markdown */,
+				D10DCFDDF7C9BE872C2D7F6E6572F2EC /* Pods-EFIntroVideoViewController_Example-acknowledgements.plist */,
+				103E359C0576D432D994252BCFCF62D3 /* Pods-EFIntroVideoViewController_Example-dummy.m */,
+				FE4A1EC606E20497E299F6C2034EAC01 /* Pods-EFIntroVideoViewController_Example-frameworks.sh */,
+				DCC35A355C33A8C1CEDBE635DD499CDD /* Pods-EFIntroVideoViewController_Example-resources.sh */,
+				E9ED4FD339FD56DE8C36912A03D6A2FB /* Pods-EFIntroVideoViewController_Example-umbrella.h */,
+				3F50C5DDADD89EFAFC177BAE508552C0 /* Pods-EFIntroVideoViewController_Example.debug.xcconfig */,
+				1608A3082AD842D83A6049014A97DFFE /* Pods-EFIntroVideoViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-EFIntroVideoViewController_Example";
+			path = "Target Support Files/Pods-EFIntroVideoViewController_Example";
+			sourceTree = "<group>";
+		};
+		2261A9A4B21D565C489314DA23CA883A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D3550F7B103E3A455A1899512DBB26 /* EFIntroVideoViewController.modulemap */,
+				9D48B50DC8E8940E27FBA3D6837CE295 /* EFIntroVideoViewController.xcconfig */,
+				A8335583EAB515EECC4D75435C52A7BC /* EFIntroVideoViewController-dummy.m */,
+				38556AE24F1FD191F92FB36193591928 /* EFIntroVideoViewController-prefix.pch */,
+				FC8BAF123B9C5AD27D0F7A5EC9F57DC5 /* EFIntroVideoViewController-umbrella.h */,
+				77FC510960F62E401C82094CC35848E8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFIntroVideoViewController";
+			sourceTree = "<group>";
+		};
+		3B5D28A5267B5C82C8C5A772F212E0BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45813F2437CA3262A5F7EF76D4216136 /* EFIntroVideoViewController.framework */,
+				5090159729FB9DF18A1E41FCDACAD186 /* Pods_EFIntroVideoViewController_Example.framework */,
+				87E2BA7B7781038E7A00B5BF1445E774 /* Pods_EFIntroVideoViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C181F7F2379BF131738D1CD3E269371 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				310ACF59C301FC623A32AB4DCCEBBFBC /* EFIntroVideoViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		426A2888F608D1098B6FC68E3141DAE5 /* Pods-EFIntroVideoViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7390639DDF93EFA6B81AF58E666699C1 /* Info.plist */,
+				CA91519A8487EB0A395CB53BD4B3C8FA /* Pods-EFIntroVideoViewController_Tests.modulemap */,
+				CB09922E319CD26317A5FD4E51ADDD4D /* Pods-EFIntroVideoViewController_Tests-acknowledgements.markdown */,
+				17035073C2A05695820E0A21E18381FA /* Pods-EFIntroVideoViewController_Tests-acknowledgements.plist */,
+				0CDDCCAB1150E91D871245DAA8C5D4E8 /* Pods-EFIntroVideoViewController_Tests-dummy.m */,
+				718D2600C91E816C7D53C9A7E50AEDB4 /* Pods-EFIntroVideoViewController_Tests-frameworks.sh */,
+				044563FDE9810C26F20D0677953BA924 /* Pods-EFIntroVideoViewController_Tests-resources.sh */,
+				ED25B2D2014FA565828F434F4C7C4F3F /* Pods-EFIntroVideoViewController_Tests-umbrella.h */,
+				80DE366B600C14F7137BEA20759B7845 /* Pods-EFIntroVideoViewController_Tests.debug.xcconfig */,
+				E442B1B534C38A278E6D60900E47FB74 /* Pods-EFIntroVideoViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-EFIntroVideoViewController_Tests";
+			path = "Target Support Files/Pods-EFIntroVideoViewController_Tests";
+			sourceTree = "<group>";
+		};
+		42D716F97C5B003BA6BC56519C92F1A6 /* EFIntroVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A4A0CD00BF221FBAE7D448424B6420E /* EFIntroVideoViewController */,
+				2261A9A4B21D565C489314DA23CA883A /* Support Files */,
+			);
+			name = EFIntroVideoViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A4A0CD00BF221FBAE7D448424B6420E /* EFIntroVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C181F7F2379BF131738D1CD3E269371 /* Classes */,
+			);
+			path = EFIntroVideoViewController;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9A66F1F8E99A7C0A1674C7B2A2D9EB1F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3B5D28A5267B5C82C8C5A772F212E0BB /* Products */,
+				D9CF4DAE04B72F4B70860BBA8B6EC3B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A66F1F8E99A7C0A1674C7B2A2D9EB1F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D716F97C5B003BA6BC56519C92F1A6 /* EFIntroVideoViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9CF4DAE04B72F4B70860BBA8B6EC3B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1358BC47EEC96AABB7A11AD41D8F0BED /* Pods-EFIntroVideoViewController_Example */,
+				426A2888F608D1098B6FC68E3141DAE5 /* Pods-EFIntroVideoViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AFB068EB4E3EF0C03475DF8C55CE12BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A7638202562A18C1D3032E466E3FB /* Pods-EFIntroVideoViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B71FB69A20EF32D66066756807A8F9EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCB3E0F671471A04ABF10672DDAB61E /* EFIntroVideoViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA518381C9DCA0B19E518D7925C7B69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE258F841B733EEEC051A35F28718F2 /* Pods-EFIntroVideoViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C89A6BE9C96CAA6CAFB254136650AC1 /* EFIntroVideoViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D55BD7DE55D07B7BD24128062CFF7C5 /* Build configuration list for PBXNativeTarget "EFIntroVideoViewController" */;
+			buildPhases = (
+				CB8354E065CF9861F7540A3C71BC30EF /* Sources */,
+				48AD9760678576BA38080FED0686F177 /* Frameworks */,
+				B71FB69A20EF32D66066756807A8F9EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EFIntroVideoViewController;
+			productName = EFIntroVideoViewController;
+			productReference = 45813F2437CA3262A5F7EF76D4216136 /* EFIntroVideoViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		741D5AF30A870001EF111AE2B88F44E9 /* Pods-EFIntroVideoViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CC22972519C9E6074D2D6A6496DD40 /* Build configuration list for PBXNativeTarget "Pods-EFIntroVideoViewController_Tests" */;
+			buildPhases = (
+				18AB76612F149A49E7C37C35E016FA93 /* Sources */,
+				87B9AE43E3D0651FADA9D0D1D52EA607 /* Frameworks */,
+				AFB068EB4E3EF0C03475DF8C55CE12BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EFIntroVideoViewController_Tests";
+			productName = "Pods-EFIntroVideoViewController_Tests";
+			productReference = 87E2BA7B7781038E7A00B5BF1445E774 /* Pods_EFIntroVideoViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D610C8BF06F0D49ED45B3CB1546F8B65 /* Pods-EFIntroVideoViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C305817A53B33511233A054B31B210 /* Build configuration list for PBXNativeTarget "Pods-EFIntroVideoViewController_Example" */;
+			buildPhases = (
+				68D156923239D5CC5C2301B4E61C15C5 /* Sources */,
+				D84E56AE04013A7C1AB8D79F68E09AA9 /* Frameworks */,
+				DBA518381C9DCA0B19E518D7925C7B69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97C936796DBA7DC37E44BE2B5E4A2C6D /* PBXTargetDependency */,
+			);
+			name = "Pods-EFIntroVideoViewController_Example";
+			productName = "Pods-EFIntroVideoViewController_Example";
+			productReference = 5090159729FB9DF18A1E41FCDACAD186 /* Pods_EFIntroVideoViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B5D28A5267B5C82C8C5A772F212E0BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C89A6BE9C96CAA6CAFB254136650AC1 /* EFIntroVideoViewController */,
+				D610C8BF06F0D49ED45B3CB1546F8B65 /* Pods-EFIntroVideoViewController_Example */,
+				741D5AF30A870001EF111AE2B88F44E9 /* Pods-EFIntroVideoViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AB76612F149A49E7C37C35E016FA93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF0358A634934827A1535A4A571C839 /* Pods-EFIntroVideoViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D156923239D5CC5C2301B4E61C15C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0DF5A600A262FE9B42E05E0AE948C7 /* Pods-EFIntroVideoViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8354E065CF9861F7540A3C71BC30EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9AC56C028C823DEF9678641777A8514 /* EFIntroVideoViewController-dummy.m in Sources */,
+				8F90F8E3AFB640361EE1D489E0AE8B60 /* EFIntroVideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97C936796DBA7DC37E44BE2B5E4A2C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFIntroVideoViewController;
+			target = 1C89A6BE9C96CAA6CAFB254136650AC1 /* EFIntroVideoViewController */;
+			targetProxy = 9A4651D1AE8A2B3CE159B5A3C75BEBFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12C1D5ACC7C88B82809C9AC81E7972FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DE366B600C14F7137BEA20759B7845 /* Pods-EFIntroVideoViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Tests/Pods-EFIntroVideoViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFIntroVideoViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		14514BA6D1D8923589ED4F10C5E1A333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F50C5DDADD89EFAFC177BAE508552C0 /* Pods-EFIntroVideoViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Example/Pods-EFIntroVideoViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFIntroVideoViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2381B6B8348DDAA0EAD2CB00E1509340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D48B50DC8E8940E27FBA3D6837CE295 /* EFIntroVideoViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFIntroVideoViewController/EFIntroVideoViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIntroVideoViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFIntroVideoViewController/EFIntroVideoViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EFIntroVideoViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70B7FCE8EA322AAA8F8CD297EFAFDEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D48B50DC8E8940E27FBA3D6837CE295 /* EFIntroVideoViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFIntroVideoViewController/EFIntroVideoViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFIntroVideoViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFIntroVideoViewController/EFIntroVideoViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EFIntroVideoViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		774615C4328884D40C25957E447805BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1608A3082AD842D83A6049014A97DFFE /* Pods-EFIntroVideoViewController_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Example/Pods-EFIntroVideoViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFIntroVideoViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A25CA418F0AACFF8738D8153D11162D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E442B1B534C38A278E6D60900E47FB74 /* Pods-EFIntroVideoViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFIntroVideoViewController_Tests/Pods-EFIntroVideoViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFIntroVideoViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C305817A53B33511233A054B31B210 /* Build configuration list for PBXNativeTarget "Pods-EFIntroVideoViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14514BA6D1D8923589ED4F10C5E1A333 /* Debug */,
+				774615C4328884D40C25957E447805BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D55BD7DE55D07B7BD24128062CFF7C5 /* Build configuration list for PBXNativeTarget "EFIntroVideoViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2381B6B8348DDAA0EAD2CB00E1509340 /* Debug */,
+				70B7FCE8EA322AAA8F8CD297EFAFDEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CC22972519C9E6074D2D6A6496DD40 /* Build configuration list for PBXNativeTarget "Pods-EFIntroVideoViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C1D5ACC7C88B82809C9AC81E7972FF /* Debug */,
+				A25CA418F0AACFF8738D8153D11162D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "EFIntroVideoViewController",
+  "version": "0.1.0",
+  "summary": "A very simple IBDesignable Video Intro ViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EFIntroVideoViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ezefranca": "ezequiel.ifsp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EFIntroVideoViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EFIntroVideoViewController/Classes/**/*"
+}
