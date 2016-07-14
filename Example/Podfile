@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EFIntroVideoViewController_Example' do
+  pod 'EFIntroVideoViewController', :path => '../'
+
+  target 'EFIntroVideoViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
