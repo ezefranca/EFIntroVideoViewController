@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 EFIntroVideoViewController is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +18,17 @@ it, simply add the following line to your Podfile:
 pod "EFIntroVideoViewController"
 ```
 
-## Author
+## Usage
 
-ezefranca, ezequiel.ifsp@gmail.com
+Set A viewController in storyboard and set the properties
+
+[![1](https://github.com/ezefranca/EFIntroVideoViewController/blob/master/images/1.png?raw=true)](https://github.com/ezefranca/EFIntroVideoViewController/blob/master/images/1.png?raw=true)
+
+
+[![1](https://github.com/ezefranca/EFIntroVideoViewController/blob/master/images/2.png?raw=true)](https://github.com/ezefranca/EFIntroVideoViewController/blob/master/images/2.png?raw=true)
+
+
+
 
 ## License
 
