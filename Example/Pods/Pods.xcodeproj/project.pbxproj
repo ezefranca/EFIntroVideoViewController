@@ -316,6 +316,9 @@
 					1C89A6BE9C96CAA6CAFB254136650AC1 = {
 						LastSwiftMigration = 0800;
 					};
+					741D5AF30A870001EF111AE2B88F44E9 = {
+						LastSwiftMigration = 0800;
+					};
 					D610C8BF06F0D49ED45B3CB1546F8B65 = {
 						LastSwiftMigration = 0800;
 					};
@@ -443,6 +446,7 @@
 				PRODUCT_NAME = Pods_EFIntroVideoViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -606,6 +610,7 @@
 				PRODUCT_NAME = Pods_EFIntroVideoViewController_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
