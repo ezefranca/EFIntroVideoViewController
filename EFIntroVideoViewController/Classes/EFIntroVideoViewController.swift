@@ -38,7 +38,7 @@ class EFIntroVideoViewController: UIViewController {
         loadVideo()
     }
     
-    private func loadVideo() {
+    fileprivate func loadVideo() {
         
         playerView = UIView(frame: view.bounds)
         
@@ -49,27 +49,27 @@ class EFIntroVideoViewController: UIViewController {
             fatalError()
         }
         
-        let path = NSBundle.mainBundle().pathForResource(videoPath, ofType:videoType)
-        player = AVPlayer(URL: NSURL(fileURLWithPath: path!))
+        let path = Bundle.main.path(forResource: videoPath, ofType:videoType)
+        player = AVPlayer(url: URL(fileURLWithPath: path!))
         playerLayer = AVPlayerLayer(player: player)
         playerLayer.frame = self.view.frame
         playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
         playerLayer.zPosition = -1
         playerView.layer.addSublayer(playerLayer)
-        player?.seekToTime(kCMTimeZero)
+        player?.seek(to: kCMTimeZero)
         player?.play()
-        NSTimer.scheduledTimerWithTimeInterval(videoTime, target: self, selector: #selector(openNextViewController), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: videoTime, target: self, selector: #selector(openNextViewController), userInfo: nil, repeats: false)
     }
     
     func openNextViewController() {
-        UIView.animateWithDuration(videoTransitionTime, animations: {
+        UIView.animate(withDuration: videoTransitionTime, animations: {
             self.playerView.alpha = 0
-        }) { (completed) in
+        }, completion: { (completed) in
             let identifier = self.nextViewControllerIdentifier
             let storyboard = UIStoryboard(name: self.storyboardName, bundle: nil)
             self.playerView.removeFromSuperview()
-            let next = storyboard.instantiateViewControllerWithIdentifier(identifier)
-            self.presentViewController(next, animated: self.animated, completion: nil)
-        }
+            let next = storyboard.instantiateViewController(withIdentifier: identifier)
+            self.present(next, animated: self.animated, completion: nil)
+        }) 
     }
 }
