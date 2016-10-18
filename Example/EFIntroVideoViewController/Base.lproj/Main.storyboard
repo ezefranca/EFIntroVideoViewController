@@ -21,7 +21,6 @@
                     </view>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Main"/>
-                        <userDefinedRuntimeAttribute type="string" keyPath="nextViewControllerIdentifier" value="ViewController"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="videoPath" value="intro"/>
                         <userDefinedRuntimeAttribute type="string" keyPath="videoType" value="mp4"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="videoTime">
@@ -31,6 +30,7 @@
                             <real key="value" value="1"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="animated" value="YES"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="nextViewControllerIdentifier" value="ViewController"/>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4VT-VH-AMu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,17 +54,75 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xaV-hP-0rz">
+                                <state key="normal" title="Show Again"/>
+                                <connections>
+                                    <segue destination="8ca-u7-Sd9" kind="show" id="c4I-l0-90s"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xaV-hP-0rz" secondAttribute="trailing" constant="110" id="BQO-Su-CwZ"/>
                             <constraint firstItem="BZq-wl-8MO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KOp-00-mKF"/>
-                            <constraint firstItem="BZq-wl-8MO" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="buV-nl-Wdq"/>
+                            <constraint firstItem="xaV-hP-0rz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="110" id="SfC-a2-LqG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BZq-wl-8MO" secondAttribute="bottom" constant="277" id="XiQ-XD-sjM"/>
+                            <constraint firstItem="BZq-wl-8MO" firstAttribute="top" secondItem="xaV-hP-0rz" secondAttribute="bottom" constant="35" id="z82-cc-eV0"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="5ha-TM-oYU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="262" y="407"/>
+            <point key="canvasLocation" x="1200.8" y="406.14692653673166"/>
+        </scene>
+        <!--Intro Video View Controller-->
+        <scene sceneID="A01-5g-x38">
+            <objects>
+                <viewController id="8ca-u7-Sd9" customClass="EFIntroVideoViewController" customModule="EFIntroVideoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ha-xP-8FI"/>
+                        <viewControllerLayoutGuide type="bottom" id="J78-mY-o28"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wcR-yt-QyO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="storyboardName" value="Main"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="videoPath" value="intro"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="videoType" value="mp4"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="videoTime">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="animated" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="videoTransitionTime">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P5N-yn-Rv4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="405.24737631184411"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Znn-9S-DPt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O2d-un-Gbb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IKe-Gn-TXc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4Ch-KQ-eEX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ouQ-HD-jRb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261.60000000000002" y="406.14692653673166"/>
         </scene>
     </scenes>
 </document>

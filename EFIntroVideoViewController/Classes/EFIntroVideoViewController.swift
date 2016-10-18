@@ -15,7 +15,7 @@ class EFIntroVideoViewController: UIViewController {
     var playerLayer: AVPlayerLayer!
     var playerView: UIView!
     
-    @IBInspectable var nextViewControllerIdentifier: String = ""
+    @IBInspectable var nextViewControllerIdentifier: String? = nil
     @IBInspectable var storyboardName:String = "Main"
     @IBInspectable var videoPath:String = ""
     @IBInspectable var videoType:String = ""
@@ -58,17 +58,22 @@ class EFIntroVideoViewController: UIViewController {
         playerView.layer.addSublayer(playerLayer)
         player?.seek(to: kCMTimeZero)
         player?.play()
+        
+        guard let nextIdentifier = self.nextViewControllerIdentifier else {
+            return
+        }
+        self.nextViewControllerIdentifier = nextIdentifier
+        
         Timer.scheduledTimer(timeInterval: videoTime, target: self, selector: #selector(openNextViewController), userInfo: nil, repeats: false)
     }
     
-    func openNextViewController() {
+     func openNextViewController() {
         UIView.animate(withDuration: videoTransitionTime, animations: {
             self.playerView.alpha = 0
         }, completion: { (completed) in
-            let identifier = self.nextViewControllerIdentifier
             let storyboard = UIStoryboard(name: self.storyboardName, bundle: nil)
             self.playerView.removeFromSuperview()
-            let next = storyboard.instantiateViewController(withIdentifier: identifier)
+            let next = storyboard.instantiateViewController(withIdentifier: self.nextViewControllerIdentifier!)
             self.present(next, animated: self.animated, completion: nil)
         }) 
     }
