@@ -6,6 +6,13 @@ language: objective-c
 osx_image: xcode8
 # cache: cocoapods
 # podfile: Example/Podfile
+env:
+  global:
+  - LC_CTYPE=en_US.UTF-8
+  - LANG=en_US.UTF-8
+  - WORKSPACE=EFIntroVideoViewController.xcworkspace
+  - IOS_FRAMEWORK_SCHEME="EFIntroVideoViewController-Example"
+  - EXAMPLE_SCHEME="EFIntroVideoViewController-Example"
 before_install:
  - gem install cocoapods --pre # Since Travis is not always on latest version
  - pod install --project-directory=Example
