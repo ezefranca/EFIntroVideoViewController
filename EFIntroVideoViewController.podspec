@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EFIntroVideoViewController'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A very simple IBDesignable Video Intro ViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A very simple IBDesignable Video Intro ViewController
+  A very simple IBDesignable Video Intro ViewController Class. Just set Class in your storyboard and set the parameters
                        DESC
 
   s.homepage         = 'https://github.com/ezefranca/EFIntroVideoViewController'
