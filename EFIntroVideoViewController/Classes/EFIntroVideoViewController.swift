@@ -38,7 +38,7 @@ class EFIntroVideoViewController: UIViewController {
         loadVideo()
     }
     
-    fileprivate func loadVideo() {
+    func loadVideo() {
         
         playerView = UIView(frame: view.bounds)
         
