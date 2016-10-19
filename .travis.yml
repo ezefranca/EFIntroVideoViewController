@@ -32,5 +32,5 @@ before_install:
  - gem install cocoapods --pre # Since Travis is not always on latest version
  - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/EFIntroVideoViewController.xcworkspace -scheme EFIntroVideoViewController-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/EFIntroVideoViewController.xcworkspace -scheme EFIntroVideoViewController-Example -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint --allow-warnings
