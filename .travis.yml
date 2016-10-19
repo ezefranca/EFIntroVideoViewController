@@ -28,6 +28,7 @@ env:
   - IOS_FRAMEWORK_SCHEME="EFIntroVideoViewController-Example"
   - EXAMPLE_SCHEME="EFIntroVideoViewController-Example"
 before_install:
+ - xcodebuild -showsdks
  - gem install cocoapods --pre # Since Travis is not always on latest version
  - pod install --project-directory=Example
 script:
