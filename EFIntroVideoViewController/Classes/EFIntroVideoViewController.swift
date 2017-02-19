@@ -15,7 +15,7 @@ class EFIntroVideoViewController: UIViewController {
     var playerLayer: AVPlayerLayer!
     var playerView: UIView!
     
-    @IBInspectable var nextViewControllerIdentifier: String? = nil
+    @IBInspectable var nextViewControllerIdentifier: String = ""
     @IBInspectable var storyboardName:String = "Main"
     @IBInspectable var videoPath:String = ""
     @IBInspectable var videoType:String = ""
@@ -23,8 +23,9 @@ class EFIntroVideoViewController: UIViewController {
     @IBInspectable var videoTransitionTime:Double = 1.0
     @IBInspectable var animated:Bool = false
     
-    convenience init(videoPath:String, videoType:String, videoTime:Double, videoTransitionTime:Double, nextViewControllerIdentifier:String, animated:Bool) {
+    convenience init(storyboardName:String, videoPath:String, videoType:String, videoTime:Double, videoTransitionTime:Double, nextViewControllerIdentifier:String, animated:Bool) {
         self.init()
+        self.storyboardName = storyboardName
         self.videoPath = videoPath
         self.videoType = videoType
         self.videoTime = videoTime
@@ -43,14 +44,17 @@ class EFIntroVideoViewController: UIViewController {
         playerView = UIView(frame: view.bounds)
         
         view.addSubview(playerView)
+        
         do {
             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryAmbient)
         } catch {
             fatalError()
         }
         
-        let path = Bundle.main.path(forResource: videoPath, ofType:videoType)
-        player = AVPlayer(url: URL(fileURLWithPath: path!))
+        guard let path = Bundle.main.path(forResource: videoPath, ofType:videoType) else {
+            return
+        }
+        player = AVPlayer(url: URL(fileURLWithPath: path))
         playerLayer = AVPlayerLayer(player: player)
         playerLayer.frame = self.view.frame
         playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
@@ -58,11 +62,6 @@ class EFIntroVideoViewController: UIViewController {
         playerView.layer.addSublayer(playerLayer)
         player?.seek(to: kCMTimeZero)
         player?.play()
-        
-        guard let nextIdentifier = self.nextViewControllerIdentifier else {
-            return
-        }
-        self.nextViewControllerIdentifier = nextIdentifier
         
         Timer.scheduledTimer(timeInterval: videoTime, target: self, selector: #selector(openNextViewController), userInfo: nil, repeats: false)
     }
@@ -73,7 +72,7 @@ class EFIntroVideoViewController: UIViewController {
         }, completion: { (completed) in
             let storyboard = UIStoryboard(name: self.storyboardName, bundle: nil)
             self.playerView.removeFromSuperview()
-            let next = storyboard.instantiateViewController(withIdentifier: self.nextViewControllerIdentifier!)
+            let next = storyboard.instantiateViewController(withIdentifier: self.nextViewControllerIdentifier)
             self.present(next, animated: self.animated, completion: nil)
         }) 
     }
