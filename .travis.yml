@@ -1,36 +1,8 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
 language: objective-c
-osx_image: xcode8
-# cache: cocoapods
-# podfile: Example/Podfile
-env:
-  global:
-  - DESTINATION='platform=iOS Simulator,name=iPad Air'
-  - DESTINATION='platform=iOS Simulator,name=iPad Air 2'
-  - DESTINATION='platform=iOS Simulator,name=iPad Pro (9.7 inch)'
-  - DESTINATION='platform=iOS Simulator,name=iPad Pro (12.9 inch)'
-  - DESTINATION='platform=iOS Simulator,name=iPad Retina'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 5'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 5s'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 6'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 6 Plus'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 6s'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 6s Plus'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 7'
-  - DESTINATION='platform=iOS Simulator,name=iPhone 7 Plus'
-  - DESTINATION='platform=iOS Simulator,name=iPhone SE'
-  - LC_CTYPE=en_US.UTF-8
-  - LANG=en_US.UTF-8
-  - WORKSPACE=EFIntroVideoViewController.xcworkspace
-  - IOS_FRAMEWORK_SCHEME="EFIntroVideoViewController-Example"
-  - EXAMPLE_SCHEME="EFIntroVideoViewController-Example"
+osx_image: xcode7.3
 before_install:
- - xcodebuild -showsdks
- - gem install cocoapods --pre # Since Travis is not always on latest version
- - pod install --project-directory=Example
+    - cd Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/EFIntroVideoViewController.xcworkspace -scheme EFIntroVideoViewController-Example -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint --allow-warnings
+- set pipefail
+- xcodebuild -project EFIntroVideoViewController.xcodeproj -scheme EFIntroVideoViewController test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+- pod lib lint --quick --allow-warnings
